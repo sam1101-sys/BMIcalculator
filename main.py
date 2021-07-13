@@ -1,4 +1,6 @@
-height = float(input("enter your height in m: "))
+height = 0
+height = float(input("enter your height in foot: "))
+height *= 0.3048
 weight = float(input("enter your weight in kg: "))
 
 BMI = round(weight / height ** 2,2)
